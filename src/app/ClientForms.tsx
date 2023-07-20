@@ -193,7 +193,7 @@ export default function ClientSideComponent() {
               name={inputName}
               onChange={handleImageChange}
               id={`multiple_files_${inputName}`}
-              className={`block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 hover:text-gray-200 dark:hover:text-gray-300 transition${
+              className={`block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 hover:text-gray-700 dark:hover:text-gray-300 transition${
                 f_idx == 1 && " border-blue-400 dark:border-blue-800"
               }`}
             />
