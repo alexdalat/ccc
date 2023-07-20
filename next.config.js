@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  output: "export",
+  basePaht: "/ccc",
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
