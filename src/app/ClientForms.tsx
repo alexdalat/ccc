@@ -122,7 +122,7 @@ export default function ClientSideComponent() {
     top_combinations = top_combinations.map((combination) => {
       combination.images = combination.indicies.map(
         (index: number, idx: number) =>
-          URL.createObjectURL(images_arr[idx][index], { oneTimeOnly: true }),
+          URL.createObjectURL(images_arr[idx][index]),
       );
       return combination;
     });
@@ -147,7 +147,7 @@ export default function ClientSideComponent() {
       >
         <NextImage
           className="w-24 h-24 md:w-32 md:h-32 object-cover transition-all duration-200 ease-in-out transform group-hover:scale-105"
-          src={URL.createObjectURL(file, { oneTimeOnly: true })}
+          src={URL.createObjectURL(file)}
           alt=""
           width={96}
           height={96}
